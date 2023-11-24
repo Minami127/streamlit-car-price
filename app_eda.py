@@ -14,7 +14,7 @@ def run_eda_app () :
     
     st.dataframe(df)
 
-    st.text('기초통계데이터 확인하기')
+    st.subheader('기초통계데이터 확인하기')
     
     if st.checkbox('통계데이터보기') :
         st.dataframe(df.describe())
