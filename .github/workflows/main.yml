@@ -21,7 +21,6 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           script: |
-            conda activate streamlit39
             cd Github/streamlit-car-price/                        
             git pull
 
